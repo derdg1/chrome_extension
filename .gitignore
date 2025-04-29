@@ -1,0 +1,11 @@
+# API-Schlüssel und Konfiguration
+config.js
+
+# Beispielkonfiguration
+!config.example.js
+
+# Entwicklungsumgebungsdateien
+.DS_Store
+.idea/
+.vscode/
+*.swp

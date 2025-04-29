@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text-Zusammenfasser</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .api-form {
+      margin: 15px 0;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      box-sizing: border-box;
+    }
+    button {
+      background: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Text-Zusammenfasser</h2>
+  <p>Markiere einen Text auf einer Webseite, mache einen Rechtsklick und wähle "Text zusammenfassen".</p>
+  
+  <div class="api-form">
+    <label for="api-key">API-Schlüssel:</label>
+    <input type="password" id="api-key" placeholder="Dein API-Schlüssel">
+    <button id="save-api-key">Speichern</button>
+    <p id="status"></p>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

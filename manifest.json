@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Text-Zusammenfasser",
+    "version": "1.0",
+    "description": "Fasst markierten Text mit KI zusammen",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "activeTab",
+      "contextMenus",
+      "storage"
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+    
+  }
+  
