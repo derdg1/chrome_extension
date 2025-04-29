@@ -5,8 +5,7 @@ Diese Chrome Extension ermöglicht es dir, markierten Text auf Webseiten mit KI 
 ## Installation
 
 1. Repository klonen:
-
-
+- https://github.com/derdg1/chrome_extension.git
 2. Konfiguration einrichten:
 - Kopiere `config.example.js` zu `config.js`
 - Trage deinen API-Schlüssel in `config.js` ein
