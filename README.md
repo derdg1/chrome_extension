@@ -8,7 +8,7 @@ Diese Chrome-Extension ermöglicht es dir, jeden markierten Text auf Webseiten m
 - **Anpassbare Tonalitäten**: Wähle zwischen formal, neutral, casual, einfach oder technisch
 - **Elegante Seitenleiste** für die Darstellung der Zusammenfassung
 - **Export als Markdown** für einfache Weiterverwendung
-- **Lokale Speicherung** deines API-Schlüssels (wird nie an unsere Server gesendet)
+- **Lokale Speicherung** deines API-Schlüssels
 
 ## Installation
 
@@ -35,8 +35,6 @@ Um diese Extension zu nutzen, benötigst du einen API-Schlüssel von OpenAI:
 3. Erstelle einen neuen API-Schlüssel
 4. Kopiere den Schlüssel und füge ihn in die Extension ein, wenn du dazu aufgefordert wirst
 
-**Hinweis**: OpenAI berechnet die API-Nutzung. Die Kosten sind in der Regel gering für Textzusammenfassungen (ca. $0.002 pro 1000 Token), aber behalte deine Nutzung im Auge.
-
 ## Datenschutz
 
 - Dein API-Schlüssel wird sicher im lokalen Chrome-Speicher gespeichert
@@ -48,7 +46,7 @@ Um diese Extension zu nutzen, benötigst du einen API-Schlüssel von OpenAI:
 
 Diese Extension nutzt:
 - Chrome Extension Manifest V3
-- OpenAI Chat Completions API mit dem GPT-3.5-Turbo Modell
+- OpenAI Chat Completions API mit dem o4-mini Modell
 - Content Scripts für die Interaktion mit Webseiten
 - Chrome Storage API zur sicheren Speicherung des API-Schlüssels
 

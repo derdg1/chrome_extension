@@ -154,7 +154,7 @@ async function generateSummary(text, apiKey, tone = 'neutral') {
         'Authorization': `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: "gpt-3.5-turbo",
+        model: "o4-mini", // Geändert von "gpt-3.5-turbo" zu "o4-mini"
         messages: [
           {
             role: "system",
